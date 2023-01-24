@@ -1,0 +1,27 @@
+#pragma once
+
+#define RGBLIGHT_EFFECT_KNIGHT_OFFSET 4
+
+#define MATRIX_ROWS 12
+#define MATRIX_COLS 9
+#define MATRIX_ROW_PINS { B7, B3, B2, B1, B0, E6, F0, F1, F4, F5, F6, F7 }
+#define MATRIX_COL_PINS { D0, D1, D2, D3, D5, D4, D6, D7, B4 }
+
+#undef BACKLIGHT_PIN
+#define BACKLIGHT_PIN B6
+#undef BACKLIGHT_LEVELS
+#define BACKLIGHT_LEVELS 5
+// #define BACKLIGHT_CAPS_LOCK
+#define BACKLIGHT_BREATHING
+#define BREATHING_PERIOD 5
+
+//#define TAPPING_TERM 175
+#define RGBLIGHT_SLEEP
+
+#define COMBO_COUNT 1
+#define TAPPING_TERM 350
+
+// #define LED_CAPS_LOCK_PIN // This doesn't work :(
+
+#define DIODE_DIRECTION ROW2COL
+#define DEVICE_VER      0x0300
